@@ -1,6 +1,6 @@
-### User Sign up and Login functionality with validations using React, NodeJs, ExpressJs and MongoDB and authentication using passport and JWTs.
+## User Sign up and Login functionality with validations using React, NodeJs, ExpressJs and MongoDB and authentication using passport and JWTs.
 
-## This project uses the following technologies:
+### This project uses the following technologies:
 
 React and React Router for frontend
 Express and Node for the backend

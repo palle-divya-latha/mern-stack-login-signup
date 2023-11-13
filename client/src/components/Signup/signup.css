@@ -1,0 +1,25 @@
+.signup{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.label{
+    display: flex;
+    float: left;
+}
+.card{
+    border-color: #aa50f0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+    align-items: center;
+    margin-left: 40%;
+    width: 100%;
+}
+.btn{
+    background-color: #aa50f0;
+    color: white;
+    margin: 5px;
+}

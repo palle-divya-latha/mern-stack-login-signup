@@ -1,0 +1,16 @@
+
+.label{
+    display: flex;
+    float: left;
+}
+.card{
+    border-color: #aa50f0;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 5px;
+}
+.btn{
+    background-color: #aa50f0;
+    color: white;
+    margin: 5px;
+}

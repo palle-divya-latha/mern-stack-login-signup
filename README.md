@@ -7,13 +7,13 @@ Express and Node for the backend
 MongoDB for the database
 Redux for state management between React components
 
-// Install dependencies for server & client
+### Install dependencies for server & client
 npm install 
 
-// Run client
+### Run client
 npm run dev
 
-// Run server
+### Run server
 npm start
  
-// Server runs on http://localhost:3001 and client on http://localhost:5173
+ Server runs on http://localhost:3001 and client on http://localhost:5173

@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://beulahflary55:PsYeQ3JNTEGn4hB5@cluster0.vwd8igs.mongodb.net/multivendor');
+mongoose.connect('process.env.MONGO_URL');
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database

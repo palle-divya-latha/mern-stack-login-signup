@@ -14,7 +14,7 @@ app.get('*', function(req, res){
 res.sendFile(path.join(__dirname, './client/dist/index.html'));
 });
 
-mongoose.connect('mongodb+srv://beulahflary55:PsYeQ3JNTEGn4hB5@cluster0.vwd8igs.mongodb.net/multivendor');
+mongoose.connect('process.env.MONGO_URL');
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database

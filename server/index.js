@@ -6,15 +6,11 @@ const FormDataModel = require ('./models/Users');
 
 const app = express();
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: 'https://mern-loginsignup-frontend.netlify.app' }));
 
-app.use(express.static(path.join(__dirname, './client/dist')))
 
-app.get('*', function(req, res){
-res.sendFile(path.join(__dirname, './client/dist/index.html'));
-});
 
-mongoose.connect('process.env.MONGO_URL');
+mongoose.connect('mongodb+srv://beulahflary55:PsYeQ3JNTEGn4hB5@cluster0.vwd8igs.mongodb.net/multivendor');
 
 app.post('/register', (req, res)=>{
     // To post / insert data into database
